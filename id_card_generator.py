@@ -17,18 +17,18 @@ print("*************************************************************************
 print('\n\nAll Fields are Mandatory')
 print('Avoid any kind of Spelling Mistakes')
 print('Write Everything in uppercase letters')
-(x, y) = (50, 50)
+(x, y) = (45, 50)
 message = input('\nEnter the name of your college: ')
 company = message
 color = 'rgb(0, 0, 0)'
-font = ImageFont.truetype('arial.ttf', size=80)
+font = ImageFont.truetype('arial.ttf', size=50)
 draw.text((x, y), message, fill=color, font=font)
-# adding an unique id number. You can manually take it from user
-(x, y) = (600, 75)
+# adding an unique id number.
+(x, y) = (750, 25)
 idno = random.randint(10000000, 90000000)
 message = str('ID ' + str(idno))
 color = 'rgb(0, 0, 0)' # black color
-font = ImageFont.truetype('arial.ttf', size=60)
+font = ImageFont.truetype('arial.ttf', size=30)
 draw.text((x, y), message, fill=color, font=font)
 (x, y) = (50, 250)
 message = input('Enter Your Full Name: ')
